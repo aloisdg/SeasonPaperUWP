@@ -9,6 +9,10 @@
 	 DataContext="{Binding Main, Source={StaticResource Locator}}">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-		<TextBlock Text="{Binding Message}" FontSize="50" />
+		<TextBlock FontSize="50">
+			<Run Text="It is " />
+			<Run Text="{Binding Season}" />
+			<Run Text=" !" />
+		</TextBlock>
 	</Grid>
 </Page>
