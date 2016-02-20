@@ -107,6 +107,9 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AstroMath.cs" />
+    <Compile Include="Equinox.cs" />
+    <Compile Include="JulianDay.cs" />
     <Compile Include="Season.cs" />
     <Compile Include="SeasonExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
